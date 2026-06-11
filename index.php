@@ -56,6 +56,13 @@
     foreach( $frutas as $fruta){
       echo "<h3>" . "Mi fruta es: " . $fruta . "</h3><br>";
     }
+        $usuario = [
+          "nombre" => "jose",
+          "edad" => 31,
+        ]
+        foreach ($usuario as $clave => $valor){
+          echo $clave . " : " . $valor . "<br>";
+        }
     ?>
 
   
